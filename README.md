@@ -27,3 +27,18 @@ Ready to get started? Dive in and let **LingoGenius** guide you on your path to 
 
 
 
+## Dependencies
+
+### Python for development
+
+with miniconda:
+```
+conda create --prefix ./env-lingo-g python=3.10 -y
+conda activate ./env-lingo-g
+pip install -r requirements.txt
+```
+
+### Test
+Used pytest unittest that can be run with, `pytest tests/` in root path of the directory. 
+
+
