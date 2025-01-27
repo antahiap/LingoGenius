@@ -38,6 +38,17 @@ conda activate ./env-lingo-g
 pip install -r requirements.txt
 ```
 
+### Reflex
+- follow the installation in [link](https://github.com/reflex-dev/reflex-chat) and clone it in `.src/` directory.
+
+```
+cd src
+git clone https://github.com/reflex-dev/reflex-chat.git
+cd reflex-chat
+pip install -r requirements.txt
+```
+
+
 ### Test
 Used pytest unittest that can be run with, `pytest tests/` in root path of the directory. 
 
