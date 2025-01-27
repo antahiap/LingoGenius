@@ -1,0 +1,3 @@
+[submodule "src/reflex-chat"]
+	path = src/reflex-chat
+	url = https://github.com/example-user/example-repo.git
